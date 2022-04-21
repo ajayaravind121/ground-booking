@@ -15,6 +15,7 @@ import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { PopupComponent } from './popup/popup.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     MenupageComponent,
     PaymentComponent,
     LoginComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    PopupComponent
   ],
   imports: [
     BrowserModule,

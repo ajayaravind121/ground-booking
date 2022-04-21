@@ -6,6 +6,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { MenupageComponent } from './pages/menupage/menupage.component';
+import { PopupComponent } from './popup/popup.component';
 import { RegistrationComponent } from './registration/registration.component';
 
 const routes: Routes = [
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path:'contact',component:ContactComponent},
   {path:'login',component:LoginComponent},
   {path:'registration',component:RegistrationComponent},
+  {path:'popup',component:PopupComponent},
 ];
 
 @NgModule({

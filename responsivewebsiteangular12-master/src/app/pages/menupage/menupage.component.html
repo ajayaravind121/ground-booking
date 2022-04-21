@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" routerLink="">Virtusa Grounds</a>
+    <a class="navbar-brand" routerLink="">Rapid Grounds</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -43,9 +43,12 @@
                 <input type="text" class="form-control" placeholder="Enter Your Mobile Number" pattern="[789][0-9]{9}" title="Mobile number should be ten digit"required/>
                 <input type="text" class="form-control" placeholder="Enter Your Time Slot " required />
                 <input type="text" class="form-control" placeholder="Enter Date " required/>
-                <button class="btn btn-md btn-dark mt-3">Book Ground</button>
+                <!-- <button class="btn btn-md btn-dark mt-3" [routerLink]="['/popup']> Book Ground </button> -->
+                <!-- <a class="buybtn" [routerLink]="['/popup']"> Book Ground </a> -->
+                <button [routerLink]="['/popup']" type="submit" class="btn btn-info"> Book Ground</button>
             </form>
         </div> 
     </div>
 </div>
+
 
